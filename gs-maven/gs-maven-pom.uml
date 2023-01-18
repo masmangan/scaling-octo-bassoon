@@ -1,0 +1,33 @@
+@startuml
+
+!theme plain
+
+title gs-maven: Project Object Model (POM)
+
+
+component [gs-maven] as A
+
+
+package dependencies {
+component [joda-time] as B
+component [junit] as C
+}
+
+package plugins {
+component [maven-shade] as D
+}
+
+A .> B
+A .> C
+
+A -Down[Hidden]-> B
+
+note as N1
+ marco.mangan@pucrs.br
+ 2023-01-18
+ https://spring.io/guides/gs/maven/
+end note
+
+ 
+
+@enduml
