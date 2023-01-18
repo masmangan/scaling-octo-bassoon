@@ -2,7 +2,7 @@
 
 ## How to generate diagram images
 
-Go to PlantUML at [https://plantuml.com]([Plant UM](https://plantuml.com).
+Go to PlantUML at [https://plantuml.com](https://plantuml.com).
 Copy a .uml file into Plant UML Server editor.
 
 ### What you'll need
