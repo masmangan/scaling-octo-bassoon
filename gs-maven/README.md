@@ -12,6 +12,9 @@ Plant UML
 ### Project Object Model
 ![image](https://user-images.githubusercontent.com/595430/213295632-d5bbdb36-647b-48bc-a18e-b7bbf614a8d5.png)
 
+### Maven Phases
+![image](https://user-images.githubusercontent.com/595430/213296695-cb728442-fc2d-4963-a370-867ca7637928.png)
+
 ### Maven Central
 
 
