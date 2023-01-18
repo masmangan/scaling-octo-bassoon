@@ -13,6 +13,10 @@ component [joda-time] as B
 component [junit] as C
 }
 
+package properties {
+
+}
+
 package plugins {
 component [maven-shade] as D
 }
