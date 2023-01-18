@@ -1,0 +1,81 @@
+@startuml
+
+!theme plain
+
+title gs-maven: Classes
+
+package hello as A {
+  class HelloWorld {
+    {static} main(java.lang.String[] args)
+  }
+
+  class Greeter {
+    Greeter()
+    sayHello() : java.lang.String
+  }
+  HelloWorld .> Greeter
+
+  class GreeterTest {
+    {field} greeter : hello.Greeter
+    greeterSaysHello()
+  }
+}
+
+
+package java as C {
+
+  package lang {
+    class String
+
+    class System {
+      {static} out : java.io.PrintStream
+    }
+
+  HelloWorld .> System
+
+  }
+  package io {
+    class PrintStream {
+      println(java.lang.String)
+    }
+  }
+}
+
+package org as D {
+  package junit {
+    annotation Test
+    GreeterTest .> Test
+    class Assert { 
+      {static} asserThat()
+    }
+    GreeterTest .> Assert
+
+  }
+
+  package hamcrest {
+    class CoreMatcher {
+      {static} containsString(java.lang.String) : boolean
+    }
+    GreeterTest .> CoreMatcher
+
+  }
+
+  package joda as B {
+    class LocalTime {
+      LocalTime()
+    }
+    HelloWorld .> LocalTime
+  }
+
+}
+A -Down[hidden]-> C
+A -[hidden]-> D
+
+note as N1
+ marco.mangan@pucrs.br
+ 2023-01-18
+ https://spring.io/guides/gs/maven/
+end note
+
+
+@enduml
