@@ -1,0 +1,36 @@
+@startuml
+!theme plain
+
+title gs-maven: Maven Central
+
+node "Local Computer" as A {
+  component mvn
+  artifact pom.xml
+}
+
+node "Maven Central Server" as B {
+  component [Maven Repository]
+}
+
+A -Down[hidden]-> B
+
+node "org.junit" {
+  artifact [junit.jar]
+}
+
+node "org.joda" {
+  artifact [joda-time.jar]
+}
+
+mvn .> [Maven Repository]
+mvn .> [junit.jar]
+mvn .> [joda-time.jar]
+mvn .> pom.xml
+
+note as N1
+ marco.mangan@pucrs.br
+ 2023-01-18
+ https://spring.io/guides/gs/maven/
+end note
+
+@enduml
