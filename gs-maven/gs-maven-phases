@@ -1,0 +1,20 @@
+@startuml
+!theme plain
+
+title gs-maven: Maven Phases
+
+abstract [Phase]
+hide empty members
+Phase <|-- clean
+Phase <|-- compile
+Phase <|-- test
+Phase <|-- package
+Phase <|-- install
+
+note as N1
+ marco.mangan@pucrs.br
+ 2023-01-18
+ https://spring.io/guides/gs/maven/
+end note
+
+@enduml
