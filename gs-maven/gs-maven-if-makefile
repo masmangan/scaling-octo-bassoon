@@ -1,0 +1,43 @@
+@startuml
+
+!theme plain
+
+title Makefile
+
+package "OS Shell" as A {
+  [bash]
+}
+
+package "Programming Platform" as B {
+
+  package "GNU C++" {
+    package "C++ Language"
+    package "C++ lib"
+    package "C++ Tools" {
+      [g++]
+    }
+  }
+
+}
+
+A -Down[hidden]-> B
+D -Down[hidden]-> C
+
+package "Build Automation Tool" as D {
+ [GNU make]   
+}
+
+package "IDE" as C {
+ artifact [Eclipse] as Eclipse
+ artifact [XCode] as XCode
+ artifact [VSCode] as VS
+ artifact [Another Text editor or IDE] as F
+}
+
+note as N1
+ marco.mangan@pucrs.br
+ 2023-01-20
+ https://www.oreilly.com/library/view/c-cookbook/0596007612/ch01s16.html
+end note
+
+@enduml
