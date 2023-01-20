@@ -22,3 +22,6 @@ Copy a .uml file into Plant UML Server editor.
 
 ### Deployment
 ![image](https://user-images.githubusercontent.com/595430/213300897-0591b1ac-226b-4b72-825f-618229c85b20.png)
+
+# Alternative build
+![image](https://user-images.githubusercontent.com/595430/213695274-5a1101be-db15-460a-9bea-cd897ca15d8c.png)
