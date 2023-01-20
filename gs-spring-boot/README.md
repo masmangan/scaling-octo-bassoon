@@ -17,6 +17,5 @@ Copy a .uml file into Plant UML Server editor.
 ### Maven Central
 
 ### Local Deployment
-![image](https://user-images.githubusercontent.com/595430/213300897-0591b1ac-226b-4b72-825f-618229c85b20.png)
 
 ### Public Cloud Deployment (AWS)
