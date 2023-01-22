@@ -6,8 +6,7 @@ Go to PlantUML at [https://plantuml.com](https://plantuml.com).
 Copy a .uml file into Plant UML Server editor.
 
 ## Original Guide
-
-[https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.DeployApp.html](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.DeployApp.html)
+(https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html)[https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html]
 
 ## Visual Guide
 
