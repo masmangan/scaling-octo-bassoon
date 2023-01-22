@@ -10,4 +10,6 @@ Copy a .uml file into Plant UML Server editor.
 
 ### Concepts
 
-### Java Example
+### Samples
+![image](https://user-images.githubusercontent.com/595430/213916478-93819d99-bf9f-4fbe-87b2-bda4855eed07.png)
+
