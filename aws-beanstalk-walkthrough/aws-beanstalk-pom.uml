@@ -1,0 +1,40 @@
+@startuml
+
+!theme plain
+
+title aws-beanstalk: Corretto Sample Project Object Model (POM)
+
+
+component [samp-app] as A
+
+
+package dependencies {
+component [jetty-server] as B
+}
+
+package properties {
+[jettyVersion]
+[mainApplication]
+[maven.compiler.source]
+[maven.compiler.target]
+}
+
+package plugins {
+component [maven-assembly-plugin] as D
+[exec-maven-plugin]
+[jetty-maven-plugin]
+}
+
+A .> B
+
+A -Down[Hidden]-> B
+
+note as N1
+ marco.mangan@gmail.com
+ 2023-01-22
+ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/samples/corretto.zip
+end note
+
+ 
+
+@enduml
