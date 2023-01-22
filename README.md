@@ -13,3 +13,7 @@ The mais guide is divided in smaller visual guides following the steps from deve
 - gs-maven
 - gs-spring-boot
 - aws-beanstalk-walkthrough
+
+![image](https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg)
+
+
