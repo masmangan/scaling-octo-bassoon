@@ -2,32 +2,32 @@
 
 title AWS Beanstalk
 
-package "Beanstalk Environments" {
+package "Beanstalk Samples Environments" {
 
   [Docker] as Docker #Orange
-  [Multicontainer Docker] #Tomato
-  [<<Jakarta>>\nPreconfigured Docker (Glassfish) ] #LightYellow
+  [Multicontainer Docker] as Multi #Tomato
+  component "Preconfigured Docker (Glassfish)" <<Jakarta>> #LightYellow
 
   [Go]
 
-  [<<Jakarta>>\nCorretto] #LightGreen
-  [<<Jakarta>>\nTomcat] #LightYellow
+  component "Corretto" <<Jakarta>> #LightGreen
+  component "Tomcat"<<Jakarta>> #LightYellow
 
   [.NET Core on Linux]
   [.NET]
 
   [Node.js]
-  [PHP]
+  [PHP] as PHP
   [Python] as Python
   [Ruby]
 
-  Docker .> Python
-}
 
 note as N1
  marco.mangan@gmail.com
  2023-01-22
  https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.DeployApp.html
 end note
+
+}
 
 @enduml
