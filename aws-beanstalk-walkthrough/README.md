@@ -5,6 +5,12 @@
 Go to PlantUML at [https://plantuml.com](https://plantuml.com).
 Copy a .uml file into Plant UML Server editor.
 
+## Original Guide
+
+[https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.DeployApp.html](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.DeployApp.html)
+
+## Visual Guide
+
 ### AWS Beanstalk 
 ![image](https://user-images.githubusercontent.com/595430/213908831-9d9a67fa-5a4e-4551-9b8e-7c24dd4c8d47.png)
 
