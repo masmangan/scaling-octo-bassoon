@@ -1,0 +1,36 @@
+@startuml
+!theme plain
+
+title aws-beanstalk: Main Services
+
+
+[AWS Elastic Beanstalk] as A
+      
+[AWS Cloud Formation] as B
+      
+[Amazon EC2 Instances] as C
+
+[S3 buckets] as D
+
+[Amazon CloudWatch] as E
+
+A .> B
+A .> C
+A .> D
+A .> E
+
+A -Down[hidden]-> C
+A -Down[hidden]-> D
+
+
+C -Down[hidden]-> D
+E -Down[hidden]-> B
+
+
+note as N1
+ marco.mangan@pucrs.br
+ 2023-01-22
+ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html
+end note
+
+@enduml
