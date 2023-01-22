@@ -1,0 +1,33 @@
+@startuml
+
+title AWS Beanstalk
+
+package "Beanstalk Environments" {
+
+  [Docker] as Docker #Orange
+  [Multicontainer Docker] #Tomato
+  [<<Jakarta>>\nPreconfigured Docker (Glassfish) ] #LightYellow
+
+  [Go]
+
+  [<<Jakarta>>\nCorretto] #LightGreen
+  [<<Jakarta>>\nTomcat] #LightYellow
+
+  [.NET Core on Linux]
+  [.NET]
+
+  [Node.js]
+  [PHP]
+  [Python] as Python
+  [Ruby]
+
+  Docker .> Python
+}
+
+note as N1
+ marco.mangan@gmail.com
+ 2023-01-22
+ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.DeployApp.html
+end note
+
+@enduml
