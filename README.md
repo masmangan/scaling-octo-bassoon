@@ -17,3 +17,4 @@ The mais guide is divided in smaller visual guides following the steps from deve
 ![image](https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg)
 
 
+<img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="128"/>
