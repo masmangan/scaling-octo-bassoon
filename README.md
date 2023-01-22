@@ -15,7 +15,7 @@ The mais guide is divided in smaller visual guides following the steps from deve
 - aws-beanstalk-walkthrough
 
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-plain.svg" width="128"/>  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="128"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-plain.svg" width="128"/>  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="128"/>
 
 
 
