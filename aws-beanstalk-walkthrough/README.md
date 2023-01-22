@@ -8,6 +8,8 @@ Copy a .uml file into Plant UML Server editor.
 ## Original Guide
 (https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html)[https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html]
 
+When asked, choose Correto sample application.
+
 ## Visual Guide
 
 ### AWS Beanstalk 
