@@ -1,5 +1,5 @@
 # scaling-octo-bassoon
-A Visual Guide do Spring Guides Using Plant UML
+A Visual Guide to Spring Guides Using Plant UML
 
 
 This is a guide about the software **development** of a hello Spring Boot Application and the systems **operations** of this simple application at AWS Elastic Beanstalk.
