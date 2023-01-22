@@ -1,0 +1,22 @@
+@startuml
+!theme plain
+
+title gs-maven: Deployment
+
+node "Local Computer" as A {
+  node "Operating Systemm" as B {
+
+    node "Java Virtual Machine" as C {
+      [gs-maven]
+    }
+
+  }
+}
+
+note as N1
+ marco.mangan@pucrs.br
+ 2023-01-12
+ https://spring.io/guides/gs/maven/
+end note
+
+@enduml
