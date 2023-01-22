@@ -13,3 +13,5 @@ Copy a .uml file into Plant UML Server editor.
 ### Samples
 ![image](https://user-images.githubusercontent.com/595430/213916478-93819d99-bf9f-4fbe-87b2-bda4855eed07.png)
 
+### Corretto Sample POM
+![image](https://user-images.githubusercontent.com/595430/213917449-140b145d-7345-432e-b8d9-546c3e4f8e6d.png)
