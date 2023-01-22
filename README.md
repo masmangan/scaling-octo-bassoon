@@ -4,7 +4,7 @@ A Visual Guide do Spring Guides Using Plant UML
 
 This is a guide about the software **development** of a hello Spring Boot Application and the systems **operations** of this simple application at AWS Elastic Beanstalk.
 
-This guide is intended for a first idea of practices and tools of **DevOps**.
+This guide is intended for a minimal example of practices and tools of **DevOps**.
 
 ## Visual Guides
 
