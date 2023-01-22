@@ -5,6 +5,12 @@
 Go to PlantUML at [https://plantuml.com](https://plantuml.com).
 Copy a .uml file into Plant UML Server editor.
 
+## Original Guide
+
+[https://spring.io/guides/gs/maven/] (https://spring.io/guides/gs/maven/)
+
+## Visual Guide
+
 ### What you'll need
 ![image](https://user-images.githubusercontent.com/595430/213287681-68cbe890-fe69-4b37-a861-d269b66d9044.png)
 
