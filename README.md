@@ -1,5 +1,5 @@
 # scaling-octo-bassoon
-A Visual Guide to DevOps with Spring and AWS Beanstalk Using PlantUML 
+A Visual Guide to DevOps with Spring and AWS Beanstalk using PlantUML 
 
 
 This is a guide about the software **development** of a hello Spring Boot Application and the systems **operations** of this simple application at AWS Elastic Beanstalk. UML diagrams made with PlantUML are presented to help explain source code, tools, and techniques.
