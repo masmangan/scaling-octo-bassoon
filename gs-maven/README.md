@@ -7,7 +7,7 @@ Copy a .uml file into Plant UML Server editor.
 
 ## Original Guide
 
-[https://spring.io/guides/gs/maven/] (https://spring.io/guides/gs/maven/)
+[https://spring.io/guides/gs/maven/](https://spring.io/guides/gs/maven/)
 
 ## Visual Guide
 
