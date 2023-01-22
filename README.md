@@ -10,7 +10,7 @@ This guide is intended for a minimal example of practices and tools of **DevOps*
 
 The mais guide is divided in smaller visual guides following the steps from development at a local computer, Spring adoption and AWS Elastic Beanstalk system operations.
 
-- gs-maven
+-  [gs-maven](url)
 - gs-spring-boot
 - aws-beanstalk-walkthrough
 
