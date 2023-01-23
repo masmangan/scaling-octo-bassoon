@@ -10,6 +10,13 @@ Copy a .uml file into Plant UML Server editor.
 
 When asked, choose Correto sample application.
 
+Application properties file defines Web Server port as 5000. 
+Command-line can override this:
+
+```
+% mvn spring-boot:run -Dspring-boot.run.arguments="--server.port=8080"
+```
+
 ## Visual Guide
 
 ### AWS Beanstalk 
@@ -23,5 +30,8 @@ When asked, choose Correto sample application.
 ### Corretto Sample POM
 ![image](https://user-images.githubusercontent.com/595430/213917449-140b145d-7345-432e-b8d9-546c3e4f8e6d.png)
 
+
+
 ## Spring Deploy Alternatives
 ![image](https://user-images.githubusercontent.com/595430/213951307-c06f66c8-0184-44f5-aca8-8ea783e4053a.png)
+
