@@ -1,0 +1,38 @@
+@startuml
+package "AWS S3" {
+  [S3 bucket] as Bucket
+}
+cloud "Internet" as Internet
+
+node "AWS Route 53 (DNS)" as DNS
+
+DNS <. Internet
+
+node "AWS Load Balancer" {
+   component [nginx (Web Server)] as EngineX
+}
+
+EngineX <. Internet
+
+package "AWS EC2" {
+node "64-bit ARM Gravitron" as Box{
+node "Amazon Linux 2" {
+  node "Corretto (Java Virtual Machine)" {
+    node "TomCat" {
+      [TomCat Web Server] as TomWeb
+      node "TomCat Servlet Container" as TomServlet {
+        component "gs-spring-boot" as App
+        component "Spring" as Spring
+      }
+    }
+  }
+}
+}
+EngineX .> TomWeb
+TomServlet <. TomWeb
+
+
+
+Box .> Bucket
+
+@enduml
