@@ -8,15 +8,21 @@ This guide is intended for a minimal example of practices and tools of **DevOps*
 
 ## Visual Guides
 
-The mais guide is divided in smaller visual guides following the steps from development at a local computer, Spring adoption and AWS Elastic Beanstalk system operations.
+The main guide is divided in smaller visual guides following the steps from development at a local computer, Spring adoption and AWS Elastic Beanstalk system operations.
 
 -  [gs-maven](https://github.com/masmangan/scaling-octo-bassoon/tree/main/gs-maven)
 - gs-spring-boot
 - aws-beanstalk-walkthrough
 
+## Services, Tools, and Frameworks
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-plain.svg" width="128"/>  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/develop/icons/maven/maven-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="128"/>
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Plantuml_Logo.svg" width="128"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/UML_logo.svg/2560px-UML_logo.svg.png" width="128"/>
 
+## References
+
+- PlantUML Online Server [http://www.plantuml.com/plantuml/uml/](http://www.plantuml.com/plantuml/uml/)
+- Spring Guides [https://spring.io/guides](https://spring.io/guides)
+- AWS Elastic Beanstalk [https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)
