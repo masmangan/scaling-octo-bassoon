@@ -19,7 +19,8 @@ The main guide is divided in smaller visual guides following the steps from deve
 <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-plain.svg" width="128"/>  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/develop/icons/maven/maven-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-plain.svg" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="128"/>
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Plantuml_Logo.svg" width="128"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/UML_logo.svg/2560px-UML_logo.svg.png" width="128"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Plantuml_Logo.svg" width="128"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/UML_logo.svg/2560px-UML_logo.svg.png" width="128"/> <img src="https://github.com/devicons/devicon/blob/master/icons/markdown/markdown-original.svg" width="128"/>
+
 
 ## References
 
