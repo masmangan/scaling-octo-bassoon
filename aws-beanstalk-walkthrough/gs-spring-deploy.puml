@@ -1,0 +1,47 @@
+@startuml
+
+
+cloud "Cloud Foundry" as Foundry
+
+component Kubernetes as Kubernetes
+
+component Heroku as Heroku
+
+AWS <. Heroku
+
+component "Cloud Captain" as Captain
+
+package "Public Cloud" {
+
+  cloud "Amazon Web Services (AWS)" as AWS {
+
+    [AWS Elastic Beanstalk] #LightBlue
+
+  }
+
+  AWS <. Captain
+  AWS <. Kubernetes
+  Azure <. Kubernetes
+  Google <. Kubernetes
+
+  Google <. Foundry
+  AWS <. Foundry
+  Azure <. Foundry
+
+  cloud "Google Cloud" as Google {
+
+    [App Engine]
+
+    [Container Engine]
+
+    [Compute Engine]
+  }
+
+  cloud "Azure" as Azure {
+
+    [Azure Spring Cloud]
+
+    [Azure App Service]
+  }
+}
+@enduml
