@@ -23,6 +23,7 @@ Command-line can override this:
 ![image](https://user-images.githubusercontent.com/595430/213908831-9d9a67fa-5a4e-4551-9b8e-7c24dd4c8d47.png)
 
 ### Concepts
+![image](https://user-images.githubusercontent.com/595430/214132629-b0e11473-8073-48f0-a1e1-dded101433a7.png)
 
 ### Samples
 ![image](https://user-images.githubusercontent.com/595430/213916478-93819d99-bf9f-4fbe-87b2-bda4855eed07.png)
