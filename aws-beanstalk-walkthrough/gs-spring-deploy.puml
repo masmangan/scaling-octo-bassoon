@@ -1,5 +1,12 @@
 @startuml
 
+header
+ marco.mangan@pucrs.br
+ 2023-01-24
+ https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html
+end header
+
+title Deploying Spring Boot Applications
 
 cloud "Cloud Foundry" as Foundry
 
@@ -7,11 +14,11 @@ component Kubernetes as Kubernetes
 
 component Heroku as Heroku
 
-AWS <. Heroku
+AWS <.up. Heroku
 
 component "Cloud Captain" as Captain
 
-package "Public Cloud" {
+package "Public Cloud Providers" {
 
   cloud "Amazon Web Services (AWS)" as AWS {
 
@@ -19,14 +26,14 @@ package "Public Cloud" {
 
   }
 
-  AWS <. Captain
-  AWS <. Kubernetes
-  Azure <. Kubernetes
-  Google <. Kubernetes
+  AWS <.Up. Captain
+  AWS <.. Kubernetes
+  Azure <.. Kubernetes
+  Google <.. Kubernetes
 
-  Google <. Foundry
-  AWS <. Foundry
-  Azure <. Foundry
+  Google <.Up.. Foundry
+  AWS <.Up... Foundry
+  Azure <.Up.. Foundry
 
   cloud "Google Cloud" as Google {
 
