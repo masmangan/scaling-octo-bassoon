@@ -32,6 +32,8 @@ Command-line can override this:
 ### Corretto Sample POM
 ![image](https://user-images.githubusercontent.com/595430/213917449-140b145d-7345-432e-b8d9-546c3e4f8e6d.png)
 
+### Corretto Sample Classes
+![image](https://user-images.githubusercontent.com/595430/214375023-c7de65eb-726c-4ea1-857d-3ae367529f7b.png)
 
 ## Spring Deploy Alternatives
 ![image](https://user-images.githubusercontent.com/595430/214353682-17b27201-bd8d-4f4c-bc9e-8220ae1e19b3.png)
