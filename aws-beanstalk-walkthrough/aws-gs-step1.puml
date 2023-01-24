@@ -21,8 +21,7 @@ node "Amazon Linux 2" {
     node "TomCat" {
       [TomCat Web Server] as TomWeb
       node "TomCat Servlet Container" as TomServlet {
-        component "gs-spring-boot" as App
-        component "Spring" as Spring
+        component "sample-app" as App
       }
     }
   }
