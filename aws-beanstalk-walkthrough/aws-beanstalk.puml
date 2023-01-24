@@ -1,0 +1,85 @@
+@startuml
+
+!theme plain
+
+title aws-corretto-sample: Environment
+
+
+class "Application Version" as Version {
+  label
+  desciption
+  date created
+  source
+  deployed to : Environment
+}
+
+class Environment {
+  id
+  domain
+  platform
+  running version
+}
+
+class Platform {
+  name
+  branch
+  version
+}
+
+class Application {
+  name
+}
+
+class Instance {
+  ID
+  status
+  running time
+}
+
+class Event {
+  time
+  type
+  details
+  deployment id
+  requests per sec
+  total 2xx responses
+}
+ 
+class Health
+
+class Log
+
+class Monitoring
+
+class Alarm
+
+class Update {
+  start time
+  duration
+  information
+  result
+}
+
+class Tag {
+  key
+  value
+}
+
+Environment -Left> Tag
+Environment -Left> Application
+Environment -Left> Alarm
+Environment -Left> Log
+Environment -> Update
+Environment -Left> Health
+Environment -Left> Monitoring
+Environment -> Application
+Application -> Version
+Environment -> Event
+
+header
+ marco.mangan@pucrs.br
+ 2023-01-24
+end header
+
+
+@enduml
