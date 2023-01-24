@@ -1,7 +1,17 @@
 @startuml
+
+header
+ marco.mangan@pucrs.br
+ 2023-01-24
+ https://aws.amazon.com/elasticbeanstalk/
+end header
+
+title AWS Elastic Beanstalk Getting Started
+
 package "AWS S3" {
   [S3 bucket] as Bucket
 }
+
 cloud "Internet" as Internet
 
 node "AWS Route 53 (DNS)" as DNS
@@ -9,28 +19,27 @@ node "AWS Route 53 (DNS)" as DNS
 DNS <. Internet
 
 node "AWS Load Balancer" {
-   component [nginx (Web Server)] as EngineX
+  component [nginx (Web Server)] as EngineX
 }
 
 EngineX <. Internet
 
 package "AWS EC2" {
-node "64-bit ARM Gravitron" as Box{
-node "Amazon Linux 2" {
-  node "Corretto (Java Virtual Machine)" {
-    node "TomCat" {
-      [TomCat Web Server] as TomWeb
-      node "TomCat Servlet Container" as TomServlet {
-        component "sample-app" as App
-      }
+  node "64-bit ARM Graviton2" as Box {
+    node "Amazon Linux 2" {
+      node "Corretto (Java Virtual Machine)" {
+        node "TomCat" {
+          [TomCat Web Server] as TomWeb
+          node "TomCat Servlet Container" as TomServlet {
+            component "sample-app" as App #LightBlue
+          }
+        }
     }
   }
 }
-}
+
 EngineX .> TomWeb
 TomServlet <. TomWeb
-
-
 
 Box .> Bucket
 
