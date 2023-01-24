@@ -1,40 +1,43 @@
 @startuml
-
-!theme plain
-
-title aws-beanstalk: Corretto Sample Project Object Model (POM)
-
-
-component [samp-app] as A
-
-
-package dependencies {
-component [jetty-server] as B
-}
-
-package properties {
-[jettyVersion]
-[mainApplication]
-[maven.compiler.source]
-[maven.compiler.target]
-}
-
-package plugins {
-component [maven-assembly-plugin] as D
-[exec-maven-plugin]
-[jetty-maven-plugin]
-}
-
-A .> B
-
-A -Down[Hidden]-> B
-
 note as N1
  marco.mangan@gmail.com
  2023-01-22
  https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/samples/corretto.zip
 end note
 
- 
+package "AWS S3" {
+  [S3 bucket] as Bucket
+}
+cloud "Internet" as Internet
+
+node "AWS Route 53 (DNS)" as DNS
+
+DNS <. Internet
+
+node "AWS Load Balancer" {
+   component [nginx (Web Server)] as EngineX
+}
+
+EngineX <. Internet
+
+package "AWS EC2" {
+node "64-bit ARM Gravitron" as Box{
+node "Amazon Linux 2" {
+  node "Corretto (Java Virtual Machine)" {
+    node "TomCat" {
+      [TomCat Web Server] as TomWeb
+      node "TomCat Servlet Container" as TomServlet {
+        component "sample-app" as App
+      }
+    }
+  }
+}
+
+}
+EngineX .> TomWeb
+TomServlet <. TomWeb
+
+
+Box .> Bucket
 
 @enduml
