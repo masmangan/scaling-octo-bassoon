@@ -1,0 +1,109 @@
+@startuml
+
+!theme plain
+
+title aws-corretto-sample: Classes
+
+package org.example as A {
+  class "Application" as Application {
+    PAGE_SIZE : int
+    INDEX_HTML : String
+    {static} loadIndex() : String
+    {static} getStackTrace(Throwable throwable) : String
+    {static} getPort() : int
+    handleHttpRequest(HttServletRequest request, HttpServletResponse response)
+    handleCronTask(HttServletRequest request, HttpServletResponse response)
+    handle(String target, Request baseRequest, HttpServletRequest request, HttpServletResponse response)
+    {static} main(java.lang.String[] args)
+  }
+}
+
+
+package javax {
+  package servlet {
+    package http {
+      class HttpServletRequest {
+        getPathInfo()
+      }
+      class HttpServletResponse {
+        SC_OK
+        setContentType()
+        setHandled(True)
+        setStatus()
+        getWriter()
+      }
+    }
+    class ServletException
+  }
+}
+
+package java as C {
+
+  package lang {
+    class Exception
+    class Throwable
+    class String
+    class StringBuilder {
+      StringBuilder()
+      append()
+      close()
+    }
+    class system {
+      getenv()
+    }
+    class Integer
+  }
+
+  package io {
+    class IOException  
+    class PrintWriter {
+      PrintWriter()
+      println()
+    }
+    class StringWriter {
+      StringWriter()
+      getBuffer()
+    }
+    class BufferedReader {
+      BufferedReader()
+      readLine() : String
+    }
+    class InputStreamReader
+  }
+
+  package nio {
+    package file {
+      class Files
+      class Paths
+    }
+  }
+
+}
+
+package org as D {
+  package eclipse {
+    package jetty {
+      package server {
+        class Server
+        class Request
+        package handler {
+          class "AbstractHandler" as AbstractHandler
+        }
+      }
+    }
+  }
+ 
+}
+A -Down[hidden]-> C
+A -[hidden]-> D
+
+AbstractHandler <|- Application
+
+
+header
+ marco.mangan@pucrs.br
+ 2023-01-24
+end header
+
+
+@enduml
