@@ -35,6 +35,9 @@ Command-line can override this:
 ### Corretto Sample Classes
 ![image](https://user-images.githubusercontent.com/595430/214375023-c7de65eb-726c-4ea1-857d-3ae367529f7b.png)
 
+### Corretto Sample Enviroment and other concepts
+![image](https://user-images.githubusercontent.com/595430/214412523-22129c4b-d937-4b99-ad7d-4b8012756903.png)
+
 ## Spring Deploy Alternatives
 ![image](https://user-images.githubusercontent.com/595430/214353682-17b27201-bd8d-4f4c-bc9e-8220ae1e19b3.png)
 
