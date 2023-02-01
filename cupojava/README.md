@@ -1,0 +1,18 @@
+# A Visual Guide to A Cup of Java Guide
+
+## How to generate diagram images
+
+Go to PlantUML at [https://plantuml.com](https://plantuml.com).
+Copy a .uml file into Plant UML Server editor.
+
+## Original Guide
+
+[https://docs.oracle.com/javase/tutorial/getStarted/cupojava/unix.html](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/unix.html)
+
+## Visual Guide
+
+### What you'll need
+
+### Classes
+
+### Deployment
