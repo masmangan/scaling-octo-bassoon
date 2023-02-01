@@ -12,6 +12,7 @@ Copy a .uml file into Plant UML Server editor.
 ## Visual Guide
 
 ### What you'll need
+![image](https://user-images.githubusercontent.com/595430/216002493-ddbf03c4-bf31-403c-aea8-69cdaac70496.png)
 
 ### Classes
 
