@@ -1,0 +1,29 @@
+@startuml
+
+!theme plain
+
+title Edit-Compile-Run cycle
+[*] -> Edit
+
+Edit -> Compile
+
+state a <<choice>>
+
+Compile -> a
+a -> Run
+a -> Edit
+
+state b <<choice>>
+
+
+Run -> b
+
+b -> [*]
+b -> Edit
+
+header
+  marco.mangan@gmail.com
+  2023-02-01
+end header
+
+@enduml
