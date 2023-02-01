@@ -1,0 +1,41 @@
+@startuml
+
+!theme plain
+
+title cupojava: What you'll need
+
+package "OS Shell" as A {
+  [bash]
+}
+
+package "Programming Platform" as B {
+
+  package "JDK 8" {
+    package "Java Language"
+    package "Java Virtual Machine"
+    package "JDK Libraries"
+    package "JDK Tools" {
+      [javac]
+      [java]
+      [jar]
+    }
+  }
+
+}
+
+A -Down[hidden]-> B
+
+package "Text Editor" as C {
+ component [Pico] as X
+ component [vi] as Y
+ component [emacs] as W
+ component [Another text editor] as Z
+}
+
+header
+ marco.mangan@gmail.com
+ 2023-02-01
+ https://docs.oracle.com/javase/tutorial/getStarted/cupojava/unix.html
+end header
+
+@enduml
