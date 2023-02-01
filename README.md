@@ -11,8 +11,8 @@ This guide is intended for a minimal example of practices and tools of **DevOps*
 The main guide is divided in smaller visual guides following the steps from development at a local computer, Spring adoption and AWS Elastic Beanstalk system operations.
 
 - [cupojava](https://github.com/masmangan/scaling-octo-bassoon/tree/main/cupojava)
--  [gs-maven](https://github.com/masmangan/scaling-octo-bassoon/tree/main/gs-maven)
-- gs-spring-boot
+- [gs-maven](https://github.com/masmangan/scaling-octo-bassoon/tree/main/gs-maven)
+- [gs-spring-boot](https://github.com/masmangan/scaling-octo-bassoon/tree/main/gs-spring-boot)
 - [aws-beanstalk-walkthrough](https://github.com/masmangan/scaling-octo-bassoon/tree/main/aws-beanstalk-walkthrough)
 
 ## Services, Tools, and Frameworks
