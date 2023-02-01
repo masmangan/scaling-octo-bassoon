@@ -21,3 +21,4 @@ Copy a .uml file into Plant UML Server editor.
 ![image](https://user-images.githubusercontent.com/595430/216007169-d83969e3-4a26-4d57-b2f4-f74fb3580d3b.png)
 
 ## Extra: Edit-Compile-Run cycle
+![image](https://user-images.githubusercontent.com/595430/216014623-ee4f8cb3-8fee-414f-84be-b6c84f93f935.png)
