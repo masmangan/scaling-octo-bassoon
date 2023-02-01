@@ -12,7 +12,7 @@ The main guide is divided in smaller visual guides following the steps from deve
 
 -  [gs-maven](https://github.com/masmangan/scaling-octo-bassoon/tree/main/gs-maven)
 - gs-spring-boot
-- aws-beanstalk-walkthrough
+- [aws-beanstalk-walkthrough](https://github.com/masmangan/scaling-octo-bassoon/tree/main/aws-beanstalk-walkthrough)
 
 ## Services, Tools, and Frameworks
 
