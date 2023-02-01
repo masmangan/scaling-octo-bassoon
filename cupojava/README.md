@@ -15,5 +15,6 @@ Copy a .uml file into Plant UML Server editor.
 ![image](https://user-images.githubusercontent.com/595430/216002493-ddbf03c4-bf31-403c-aea8-69cdaac70496.png)
 
 ### Classes
+![image](https://user-images.githubusercontent.com/595430/216005343-6a7a7f12-b7e4-44e6-9417-54564d70e366.png)
 
 ### Deployment
