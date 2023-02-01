@@ -13,10 +13,10 @@ node "Local Computer" as A {
   }
 }
 
-note as N1
+header
  marco.mangan@pucrs.br
  2023-01-12
  https://spring.io/guides/gs/maven/
-end note
+end header
 
 @enduml

@@ -21,13 +21,11 @@ package "Beanstalk Samples Environments" {
   [Python] as Python
   [Ruby]
 
+}
 
-note as N1
+header
  marco.mangan@gmail.com
  2023-01-22
  https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.DeployApp.html
-end note
-
-}
-
+end header
 @enduml

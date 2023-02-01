@@ -34,10 +34,10 @@ package "IDE" as C {
  artifact [Another Text editor or IDE] as F
 }
 
-note as N1
+header
  marco.mangan@pucrs.br
  2023-01-20
  https://www.oreilly.com/library/view/c-cookbook/0596007612/ch01s16.html
-end note
+end header
 
 @enduml

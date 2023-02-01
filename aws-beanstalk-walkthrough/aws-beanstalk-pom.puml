@@ -1,9 +1,5 @@
 @startuml
-note as N1
- marco.mangan@gmail.com
- 2023-01-22
- https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/samples/corretto.zip
-end note
+
 
 package "AWS S3" {
   [S3 bucket] as Bucket
@@ -39,5 +35,11 @@ TomServlet <. TomWeb
 
 
 Box .> Bucket
+
+header
+ marco.mangan@gmail.com
+ 2023-01-22
+ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/samples/corretto.zip
+end header
 
 @enduml

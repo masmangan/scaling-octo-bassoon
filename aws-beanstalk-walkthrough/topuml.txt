@@ -1,3 +1,0 @@
-for f in *uml; do
-   mv -- "$f" "${f%.uml}.puml"
-done

@@ -11,10 +11,10 @@ Phase <|-- test
 Phase <|-- package
 Phase <|-- install
 
-note as N1
+header
  marco.mangan@pucrs.br
  2023-01-18
  https://spring.io/guides/gs/maven/
-end note
+end header
 
 @enduml

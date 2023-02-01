@@ -26,11 +26,11 @@ A .> C
 
 A -Down[Hidden]-> B
 
-note as N1
+header
  marco.mangan@pucrs.br
  2023-01-18
  https://spring.io/guides/gs/maven/
-end note
+end header
 
  
 

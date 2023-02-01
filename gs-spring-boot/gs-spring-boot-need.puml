@@ -42,10 +42,10 @@ package "IDE" as C {
  artifact [Another Text editor or IDE] as F
 }
 
-note as N1
+header
  marco.mangan@pucrs.br
  2023-01-20
  https://spring.io/guides/gs/spring-boot
-end note
+end header
 
 @enduml

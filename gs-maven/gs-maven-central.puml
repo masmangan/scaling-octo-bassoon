@@ -27,7 +27,7 @@ mvn .> [junit.jar]
 mvn .> [joda-time.jar]
 mvn .> pom.xml
 
-note as N1
+header
  marco.mangan@pucrs.br
  2023-01-18
  https://spring.io/guides/gs/maven/
